@@ -27,7 +27,7 @@ a:hover {
 }
 #menu {
     display: flex;
-    list-style-type: none;
+    list-style: none;
     gap: .5rem;
 }
 #menu a{
@@ -43,5 +43,8 @@ a:hover {
     }
     #menu {
         display: none;
+    }
+    #nav.active #menu {
+        display: flex;
     }
 }
