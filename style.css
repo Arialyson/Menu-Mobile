@@ -1,8 +1,8 @@
 @chraset "UTF-8";
 
 body, ul {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 a {
     color: black;
@@ -10,7 +10,7 @@ a {
     font-family: sans-serif;
 }
 a:hover {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, .05);
 }
 #logo {
     font-size: 1.5rem;
@@ -43,5 +43,8 @@ a:hover {
     }
     #menu {
         display: none;
+    }
+    #nav.active #menu {
+        display: flex;
     }
 }
