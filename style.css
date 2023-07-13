@@ -1,4 +1,4 @@
-@chraset "UTF-8";
+@charset "UTF-8";
 
 body, ul {
     margin: 0px;
@@ -43,8 +43,5 @@ a:hover {
     }
     #menu {
         display: none;
-    }
-    #nav.active #menu {
-        display: flex;
     }
 }
